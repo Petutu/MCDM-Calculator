@@ -22,6 +22,9 @@ def get_weight(A, str):
     if cr >= 0.1:
         print("Failed Consistency check of "+str)
         st.error("Failed Consistency check of "+str)
+    st.error("Consistency check of "+str+" CR = %f" cr)
+    
+
 
     return w
 
